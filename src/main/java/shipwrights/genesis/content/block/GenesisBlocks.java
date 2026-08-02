@@ -623,7 +623,7 @@ public class GenesisBlocks {
     );
 
     public static final RegistryObject<Block> VERDITE_CLUSTER = BLOCKS.register("verdite_cluster", () ->
-            new AmethystClusterBlock(2,2,BlockBehaviour.Properties.of()
+            new AmethystClusterBlock(8,2,BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_LIGHT_GREEN)
                     .sound(SoundType.AMETHYST)
                     .lightLevel(state -> 12)

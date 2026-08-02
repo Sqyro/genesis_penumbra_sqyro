@@ -88,6 +88,6 @@ public class ColoredSaltPlantBlock extends Block implements SimpleWaterloggedBlo
 
     static {
         WATERLOGGED = BlockStateProperties.WATERLOGGED;
-        BOX_COLLIDER = Block.box((double)2.0F, (double)0.0F, (double)2.0F, (double)14.0F, (double)14.0F, (double)14.0F);
+        BOX_COLLIDER = Block.box((double)2.0F, (double)0.0F, (double)2.0F, (double)14.0F, (double)12.0F, (double)14.0F);
     }
 }
